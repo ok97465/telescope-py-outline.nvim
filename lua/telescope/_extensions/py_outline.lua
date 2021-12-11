@@ -18,7 +18,7 @@ local lookup_keys = {
 
 local lookup_icon = {
   cell = {icon="", color_name="DevIconCss"},
-  func = {icon="", color_name="DevIconEex"},
+  func = {icon="", color_name="DevIconEex"},
   class = {icon="", color_name="DevIconC"},
   method = {icon="", color_name="DevIconClojureJS"},
 }
