@@ -6,7 +6,7 @@ Outline including cell (# %%) is displayed in telescope.nvim.
 
 ## Overview
 
-This telescope display python outline including cell (# %%).
+This telescope displays python outline including cell (# %%).
 
 - It doesn't use treesitter, lsp.
 - It need ripgrep, telescope.nvim.

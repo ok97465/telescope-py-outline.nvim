@@ -5,7 +5,6 @@ end
 
 local finders       = require'telescope.finders'
 local pickers       = require'telescope.pickers'
-local utils         = require'telescope.utils'
 local actions       = require'telescope.actions'
 local action_state  = require'telescope.actions.state'
 local Path          = require'plenary.path'
@@ -31,7 +30,7 @@ local find = (function()
 
       -- Handle Windows drive letter (e.g. "C:") at the beginning (if present)
       if start == 3 then
-        filename = string.sub(t.value, 1, 3) .. filename
+        filename = string.sub(t, 1, 3) .. filename
       end
 
       return filename, lnum, col, text
